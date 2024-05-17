@@ -1,1 +1,87 @@
+/* css reset */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sectionZero{
+  background-color: black;
+}
+.sectionOne {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.sectionTwo {
+  background-color: rgb(224, 229, 232);
+}
+
+.sectionThree {
+  background-color: black;
+  color: white;
+}
+
+/* top page stuff */
+
+#simonOliver {
+  font-family: jockey one;
+  font-size: 5.9vw;
+}
+
+#softwareDeveloper {
+  color: rgb(184, 206, 160);
+  font-family: jost;
+  font-size: 3vw;
+}
+
+.myIcons {
+  gap: 15px;
+  padding: 10px 10px;
+  font-size: 15pt;
+  background-color: black;
+  color: white;
+}
+
+.welcomeAbode {
+  font-family: jost;
+  font-size: 3vw;
+  font-weight: 500;
+  padding: 10px;
+}
+
+#abodeImage {
+  width: 10vw;
+  padding: 10px;
+}
