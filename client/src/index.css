@@ -45,16 +45,29 @@ img {
 }
 
 .sectionTwo {
-  background-color: rgb(224, 229, 232);
+  background-color:black;
+  height: 100vh;
 }
-
+.offWhite{
+    background-color: rgb(224, 229, 232);
+}
 .sectionThree {
   background-color: black;
   color: white;
+  height: 100vh;
+}
+
+*{
+  font-family: jost;
 }
 
 /* top page stuff */
-
+.firstSlide{
+  margin-bottom: 10vh;
+}
+.headLinks{
+  color: white;
+}
 #simonOliver {
   font-family: jockey one;
   font-size: 5.9vw;
@@ -76,12 +89,33 @@ img {
 
 .welcomeAbode {
   font-family: jost;
-  font-size: 3vw;
+  font-size: 3.4vw;
   font-weight: 500;
-  padding: 10px;
+  padding: 20px;
 }
 
 #abodeImage {
-  width: 10vw;
-  padding: 10px;
+  width: 15vw;
+  padding: 20px;
 }
+#abodeText{
+  font-size: 1.5vw;
+  padding: 20px;
+}
+
+.navBar{
+  margin-bottom: -15px;
+  background-color: white;
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.navLinks{
+  color: black;
+  text-decoration: none;
+  font-size: 1.6vw;
+}
+
+/* --------- projects section --------- */

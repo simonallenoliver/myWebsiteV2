@@ -5,20 +5,20 @@ function App() {
 
   return (
     <>
-    <div className='sectionZero'>
-  <div className='container'>
-  <div className='d-flex justify-content-end myIcons'>
-        <i class="fa-solid fa-envelope"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
-        <i class="fa-brands fa-github"></i>
-      </div>
-  </div>
-  </div>
-      
-      <div className='sectionOne d-flex align-items-center'>
+      <div className='sectionZero'>
         <div className='container'>
+          <div className='d-flex justify-content-end myIcons'>
+            <a href="https://github.com/simonallenoliver" className='headLinks' target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:simonallenoliver@gmail.com" className='headLinks'><i class="fa-solid fa-envelope"></i></a>
+            <a href="http://www.linkedin.com/in/simon-oliver-66807213b" className='headLinks' target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div className='sectionOne d-flex align-items-center'>
+        <div className='container firstSlide'>
           <div className='row'>
-            <div className='col-7 mx-auto  '>
+            <div className='col-7 col-m-9 mx-auto  '>
               <h1 id='simonOliver'>SIMON OLIVER</h1>
             </div>
           </div>
@@ -34,15 +34,16 @@ function App() {
 
       <div className='sectionTwo'>
 
-        <div className='container  '>
-          <div className='row'>
-            <div className='col-4 mx-auto text-center'>
-
+        <div className='container-fluid  '>
+          <div className='row offWhite'>
+            <div className=' col-4 mx-auto text-center '>
               <h3 className='welcomeAbode'>Welcome to my digital abode.</h3>
               <img src="/images/digitalAbode.png" id='abodeImage' alt="digital abode" />
-              <p>I’m a full-stack developer with a passion for learning and creating. While you’re here, check out some of my projects or read about my storied past.</p>
-              <div>navBar</div></div>
-
+              <p id='abodeText'> While you’re here, check out some of my projects or read about my storied past.</p>
+              <div className='navBar mx-auto text-center'>
+                <a href="http://" className='navLinks'>projects</a> <a href="http://" className='navLinks'>about me</a>
+              </div>
+            </div>
           </div>
         </div>
         {/* end container */}
