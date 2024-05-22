@@ -1,4 +1,5 @@
 import './App.css'
+import ProjectCarousel from './components/ProjectCarousel'
 
 function App() {
 
@@ -49,34 +50,26 @@ function App() {
         {/* end container */}
       </div>
       {/* end section two */}
-
+    
       <div className='sectionThree'>
+        
         <div className='container'>
           <div className='row'>
-            projects
+            <h2 id='projectHead'>PROJECTS</h2>
           </div>
-          <div className='row'>
-            <div className='col'>
-              arrow image
-            </div>
-            <div className='col'>
-              name description arrow
-            </div>
-
-          </div>
-
-          <div className='row'>
-            <div className='col'>
-              Image
-            </div>
-            <div className='col'>
-              header text
-            </div>
-          </div>
+          <ProjectCarousel/>
         </div>
       </div>
       {/* end section three */}
 
+      <div className='sectionFour'>
+        
+        <div className='container'>
+          <div className='row'>
+            <h2>about me</h2>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
