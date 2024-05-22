@@ -140,5 +140,10 @@ img {
 /* ----------- about me section -------------- */
 
 #simonPhoto{
-  width: 100%;
+  width: 65vh;
+}
+
+.scrollable{
+  height: 50vh;
+  overflow-y: scroll;
 }

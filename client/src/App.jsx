@@ -84,16 +84,37 @@ function App() {
 
         <div className='container-fluid'>
           <div className='row'>
-            <div className="col-5 offset-1 ">
+            <div className="col-5 offset-1">
               <img src="/images/newhs.jpg" id='simonPhoto' alt="simon photo" />
             </div>
-            <div className="col-4 offset-1 ">
+            <div className="col-5">
               <h2>NICE TO MEET YOU</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <div className='scrollable'>
+              <p className='my-3'>I’m a full-stack software developer from Minneapolis, Minnesota.
+                I’ve lived here for most of my life - but I did have a stint in beautiful Des Moines,
+                Iowa where I obtained my bachelor’s degree from Drake University, and afterwards worked
+                for the State’s Racing and Gaming Commission regulating the exciting, online sports
+                betting industry. After four years in the industry, I made the decision to pursue a
+                career that would nurture my passion for creative problem solving; one that would allow
+                me to acquire a valuable and interesting skill that I could continue to build upon and
+                explore throughout my entire career.
+              </p>
+              <p className='mb-3'>
+                That’s how I ended up here. I now create full-stack CRUD applications using python,
+                javascript, C#, React, MySQL, MongoDB, .NET, Entity, and much, much more. I also like to
+                keep my coding brain fresh by mixing in some game development, using Unity and Godot
+              </p>
+              <p className='mb-3'>
+                When I’m not coding, I love to stay active, whether that be lifting weights, swimming,
+                hiking, or climbing the occasional tree. I’m a creative problem solver in the kitchen too -
+                to the delight or detriment of my friends and family depending on the day - I’ve recently
+                been obsessed with Mediterranean food. I also enjoy connecting with my out of state friends
+                on discord to chat and game together.
+              </p>
+              <p>
+                Want to know even more about me!? Email me or connect with me on Linkedin :)
+              </p>
+              </div>
             </div>
           </div>
         </div>
