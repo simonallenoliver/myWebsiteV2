@@ -37,11 +37,17 @@ img {
 
 .sectionZero{
   background-color: black;
+  height: 5vh;
 }
 .sectionOne {
   background-color: black;
   color: white;
-  height: 100vh;
+  height: 90vh;
+}
+.sectionOneBottom{
+  background-color: black;
+  color: white;
+  height: 5vh;
 }
 
 .sectionTwo {
@@ -55,16 +61,21 @@ img {
   background-color: black;
   color: white;
   height: 100vh;
+  padding-top: 20vh;
+}
+.sectionFour {
+  background-color: rgb(224, 229, 232);
+  height: 100vh;
 }
 
 *{
   font-family: jost;
 }
 
+
+
 /* top page stuff */
-.firstSlide{
-  margin-bottom: 10vh;
-}
+
 .headLinks{
   color: white;
 }
@@ -89,17 +100,17 @@ img {
 
 .welcomeAbode {
   font-family: jost;
-  font-size: 3.4vw;
+  font-size: 3.2vw;
   font-weight: 500;
   padding: 20px;
 }
 
 #abodeImage {
-  width: 15vw;
+  width: 14vw;
   padding: 20px;
 }
 #abodeText{
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   padding: 20px;
 }
 
@@ -123,4 +134,11 @@ img {
 #projectHead{
   font-size: 3vw;
   margin-bottom: 10vh;
+}
+
+
+/* ----------- about me section -------------- */
+
+#simonPhoto{
+  width: 100%;
 }
