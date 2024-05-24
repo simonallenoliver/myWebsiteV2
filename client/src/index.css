@@ -35,6 +35,25 @@ img {
   height: auto;
 }
 
+p{
+  font-size: 2.5vh;
+}
+
+*{
+  font-family: jost;
+}
+
+
+/* --------------- sections ---------------- */
+
+.giantContainer{
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.slideOne{
+  scroll-snap-align: start;
+}
 .sectionZero{
   background-color: black;
   height: 5vh;
@@ -49,10 +68,10 @@ img {
   color: white;
   height: 5vh;
 }
-
 .sectionTwo {
   background-color:black;
   height: 100vh;
+  scroll-snap-align: start;
 }
 .offWhite{
     background-color: rgb(224, 229, 232);
@@ -61,45 +80,55 @@ img {
   background-color: black;
   color: white;
   height: 100vh;
-  padding-top: 20vh;
+  padding-top: 18vh;
+  scroll-snap-align: start;
 }
 .sectionFour {
   background-color: rgb(224, 229, 232);
   height: 100vh;
-}
-
-*{
-  font-family: jost;
+  scroll-snap-align: start;
 }
 
 
 
-/* top page stuff */
+
+/* ------------- top page stuff -------------- */
+
+
 
 .headLinks{
   color: white;
 }
+.headLinks:hover{
+  color: rgb(184, 206, 160);
+}
 #simonOliver {
   font-family: jockey one;
-  font-size: 5.9vw;
+  font-size: 6vw;
 }
 
 #softwareDeveloper {
   color: rgb(184, 206, 160);
-  font-family: jost;
-  font-size: 3vw;
+  font-size: 2.85vw;
 }
 
 .myIcons {
   gap: 15px;
   padding: 10px 10px;
-  font-size: 15pt;
+  font-size: 12pt;
   background-color: black;
   color: white;
 }
 
+
+.arrows{
+  color: white;
+}
+.arrows:hover{
+  color: rgb(184, 206, 160);
+}
+
 .welcomeAbode {
-  font-family: jost;
   font-size: 3.2vw;
   font-weight: 500;
   padding: 20px;
@@ -116,7 +145,7 @@ img {
 
 .navBar{
   margin-bottom: -16px;
-  background-color: white;
+  background-color: rgb(184, 206, 160);
   width: 50%;
   display: flex;
   gap: 20px;
@@ -128,22 +157,80 @@ img {
   text-decoration: none;
   font-size: 1.6vw;
 }
+.navLinks:hover{
+  color: white;
+}
 
-/* --------- projects section --------- */
+/* -------------- projects section -------------- */
 
 #projectHead{
   font-size: 3vw;
   margin-bottom: 10vh;
 }
 
+.viewButton:hover{
+  background-color: rgb(184, 206, 160);
+}
+
+
 
 /* ----------- about me section -------------- */
 
 #simonPhoto{
-  width: 65vh;
+  width: 72vh;
 }
-
+#niceToMeet{
+  margin-bottom: 3vh;
+}
 .scrollable{
   height: 50vh;
   overflow-y: scroll;
+}
+
+.bioLinks{
+  text-decoration: none;
+}
+
+
+/* ------------ MEDIUM AND SMALL SCREENS ----------- */
+/* -------------------------------------------------- */
+
+@media (max-width:600px)  {
+
+
+  #simonOliver {
+    font-family: jockey one;
+    font-size: 10vw;
+  }
+  
+  #softwareDeveloper {
+    font-size: 4.8vw;
+  }
+
+  .welcomeAbode {
+    font-size: 10vw;
+  }
+  #abodeImage {
+    width: 54vw;
+    padding: 10px;
+  }
+  #abodeText{
+    font-size: 5.4vw;
+    padding: 20px;
+  }
+
+  .navBar{
+    margin-bottom: -2vh;
+    background-color: rgb(184, 206, 160);
+    width: 60%;
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+  }
+  
+  .navLinks{
+    color: black;
+    text-decoration: none;
+    font-size: 4.6vw;
+  }
 }
