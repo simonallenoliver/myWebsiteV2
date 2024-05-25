@@ -111,7 +111,13 @@ p{
   color: rgb(184, 206, 160);
   font-size: 2.85vw;
 }
+.animate__animated.animate__fadeIn{
+  --animate-duration: 1.5s;
 
+}
+.animate__animated.animate__bounceInRight{
+  --animate-duration: 1.8s;
+}
 .myIcons {
   gap: 15px;
   padding: 10px 10px;
@@ -177,13 +183,14 @@ p{
 /* ----------- about me section -------------- */
 
 #simonPhoto{
-  width: 72vh;
+  width: 90%;
 }
 #niceToMeet{
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
+
 }
 .scrollable{
-  height: 50vh;
+  height: 55vh;
   overflow-y: scroll;
 }
 
@@ -233,7 +240,23 @@ p{
     text-decoration: none;
     font-size: 4.6vw;
   }
+  #niceToMeet{
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+  }
 
+  #simonPhoto{
+    width: 100%;
+
+  }
+  #niceToMeet{
+    margin-bottom: 2vh;
+  
+  }
+  .scrollable{
+    height: 40vh;
+    overflow-y: scroll;
+  }
 
 }
 
@@ -269,7 +292,7 @@ p{
       display: none;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   #carouselMobile {
       display: none;
   }

@@ -1,5 +1,6 @@
 import './App.css'
 import ProjectCarousel from './components/ProjectCarousel'
+import 'animate.css';
 
 function App() {
 
@@ -25,12 +26,12 @@ function App() {
             <div className='container'>
               <div className='row'>
                 <div className='col-sm-9 col-lg-7 mx-auto text-center'>
-                  <h1 id='simonOliver'>SIMON OLIVER</h1>
+                  <h1 id='simonOliver' >SIMON OLIVER</h1>
                 </div>
               </div>
               <div className='row pb-5'>
                 <div className='col-sm-8 col-lg-6 mx-auto text-center '>
-                  <h3 id='softwareDeveloper'>SOFTWARE DEVELOPER</h3>
+                  <h3 id='softwareDeveloper' className="animate__animated animate__bounceInRight">SOFTWARE DEVELOPER</h3>
                 </div>
               </div>
 
@@ -85,10 +86,10 @@ function App() {
 
           <div className='container-fluid'>
             <div className='row'>
-              <div className="col-5 offset-1">
+              <div className="col-sm-7 col-lg-5 offset-lg-1 text-center">
                 <img src="/images/newhs.jpg" id='simonPhoto' alt="simon photo" />
               </div>
-              <div className="col-5">
+              <div className="offset-sm-1 col-sm-10 col-lg-5 mx-auto">
                 <h2 id='niceToMeet'>NICE TO MEET YOU</h2>
                 <div className='scrollable'>
                   <p className='mb-3'>I’m a full-stack software developer from Minneapolis, Minnesota.

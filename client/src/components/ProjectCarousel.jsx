@@ -118,17 +118,17 @@ const ProjectCarousel = () => {
                         data-bs-interval="13000">
 
                         <h3>Leafy</h3>
-                        <img src="/images/leafySC.png" alt="leafy website screenshot" className='my-3'/>
+                        <img src="/images/leafySC.png" alt="leafy website screenshot" className='my-3' />
                         <div className='d-flex justify-content-center '>
-                            <button 
-                                className=''
+                            <button
+                                className='mx-3'
                                 type="button"
                                 data-bs-target="#carouselActions"
                                 data-bs-slide="prev">
                                 <i class="fa-solid fa-chevron-left"></i>
                             </button>
                             <button
-                            className=''
+                                className='mx-3'
                                 type="button"
                                 data-bs-target="#carouselMobile"
                                 data-bs-slide="next">
@@ -139,36 +139,66 @@ const ProjectCarousel = () => {
                             Features: Modular design allows for quick reordering of site, plus easily recyclable components for future projects;
                             React enables super efficient rendering through use of its virtual DOM, as well as cleaner, direct code using JSX embedded in HTML. </p>
                         <button className='viewButton my-2'>view project!</button>
-                        
+
                     </div>
 
 
                     <div className="carousel-item "
                         data-bs-interval="11000">
 
-                        <h3>Leafy</h3>
-                        <img src="/images/leafySC.png" alt="leafy website screenshot" className='my-3'/>
+                        <h3>Sand</h3>
+                        <img src="/images/sandScreenShot.png" alt="sand game screenshot" className='my-3' />
                         <div className='d-flex justify-content-center '>
-                            <button 
-                                className=''
+                            <button
+                                className='mx-3'
                                 type="button"
                                 data-bs-target="#carouselActions"
                                 data-bs-slide="prev">
                                 <i class="fa-solid fa-chevron-left"></i>
                             </button>
                             <button
-                            className=''
+                                className='mx-3'
                                 type="button"
                                 data-bs-target="#carouselMobile"
                                 data-bs-slide="next">
                                 <i class="fa-solid fa-chevron-right"></i>
                             </button>
                         </div>
-                        <p className='py-3'>A plant ecommerce website I built with MongoDB, Express, React, and Node.
-                            Features: Modular design allows for quick reordering of site, plus easily recyclable components for future projects;
-                            React enables super efficient rendering through use of its virtual DOM, as well as cleaner, direct code using JSX embedded in HTML. </p>
+                        <p className='py-3'>A short browser interactive story I built using Python, Flask, and MySQL. Features:
+                            Queries facilitate trade betweeen different character inventories - each item in an inventory represents a row in the database;
+                            Validations produce flash messsages that alert the player when they attempt to make an invalid trade. </p>
                         <button className='viewButton my-2'>view project!</button>
-                        
+
+                    </div>
+
+
+                    <div className="carousel-item "
+                        data-bs-interval="11000">
+
+                        <h3>Forsaken Forest</h3>
+                        <img src="/images/forsakenSC.png" alt="sand game screenshot" className='my-3' />
+                        <div className='d-flex justify-content-center '>
+                            <button
+                                className='mx-3'
+                                type="button"
+                                data-bs-target="#carouselActions"
+                                data-bs-slide="prev">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <button
+                                className='mx-3'
+                                type="button"
+                                data-bs-target="#carouselMobile"
+                                data-bs-slide="next">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <p className='py-3'>A top-down RPG I made using the Godot game engine's Python-like language, GDScript.
+                            Features: Over ten complex, conditional character animations;
+                            Enemies programmed to pursue the player character once they have reached a certain proximity;
+                            Combat functions that result in removing character sprites from the game </p>
+                        <button className='viewButton my-2'>view project!</button>
+
                     </div>
 
 
