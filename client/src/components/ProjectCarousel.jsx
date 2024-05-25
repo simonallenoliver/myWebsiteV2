@@ -24,7 +24,8 @@ const ProjectCarousel = () => {
                                 <p className='py-3'>A plant ecommerce website I built with MongoDB, Express, React, and Node.
                                     Features: Modular design allows for quick reordering of site, plus easily recyclable components for future projects;
                                     React enables super efficient rendering through use of its virtual DOM, as well as cleaner, direct code using JSX embedded in HTML. </p>
-                                <button className='viewButton'>view project!</button>
+                                <a href="https://youtu.be/DoZp1ffD8QA?t=698" target='_blank' className='projectLinks'>View Project Demo</a>
+
                             </div>
                             <div className='col-1 '>
                                 <button className="carousel-control-next"
@@ -56,8 +57,8 @@ const ProjectCarousel = () => {
                                     Queries facilitate trade betweeen different character inventories - each item in an inventory represents a row in the database;
                                     Validations produce flash messsages that alert the player when they attempt to make an invalid trade.
                                 </p>
-
-                                <button className='viewButton'>view project!</button>
+                                <a href="https://youtu.be/gJuLIOO7wyo?t=15" target='_blank' className='projectLinks'>View Project Demo</a>
+                                
                             </div>
                             <div className='col-1 '>
                                 <button className="carousel-control-next"
@@ -89,7 +90,8 @@ const ProjectCarousel = () => {
                                     Features: Over ten complex, conditional character animations;
                                     Enemies programmed to pursue the player character once they have reached a certain proximity;
                                     Combat functions that result in removing character sprites from the game</p>
-                                <button className='viewButton'>view project!</button>
+                                    <a href="https://youtu.be/GQEFtYfaGDI?t=105" target='_blank' className='projectLinks'>View Project Demo</a>
+
                             </div>
                             <div className='col-1 '>
                                 <button className="carousel-control-next"
@@ -138,7 +140,8 @@ const ProjectCarousel = () => {
                         <p className='py-3'>A plant ecommerce website I built with MongoDB, Express, React, and Node.
                             Features: Modular design allows for quick reordering of site, plus easily recyclable components for future projects;
                             React enables super efficient rendering through use of its virtual DOM, as well as cleaner, direct code using JSX embedded in HTML. </p>
-                        <button className='viewButton my-2'>view project!</button>
+                            <a href="https://youtu.be/DoZp1ffD8QA?t=698" target='_blank' className='projectLinks'>View Project Demo</a>
+                        
 
                     </div>
 
@@ -167,8 +170,8 @@ const ProjectCarousel = () => {
                         <p className='py-3'>A short browser interactive story I built using Python, Flask, and MySQL. Features:
                             Queries facilitate trade betweeen different character inventories - each item in an inventory represents a row in the database;
                             Validations produce flash messsages that alert the player when they attempt to make an invalid trade. </p>
-                        <button className='viewButton my-2'>view project!</button>
-
+                            <a href="https://youtu.be/gJuLIOO7wyo?t=15" target='_blank' className='projectLinks'>View Project Demo</a>
+                       
                     </div>
 
 
@@ -197,15 +200,9 @@ const ProjectCarousel = () => {
                             Features: Over ten complex, conditional character animations;
                             Enemies programmed to pursue the player character once they have reached a certain proximity;
                             Combat functions that result in removing character sprites from the game </p>
-                        <button className='viewButton my-2'>view project!</button>
+                            <a href="https://youtu.be/GQEFtYfaGDI?t=105" target='_blank' className='projectLinks'>View Project Demo</a>
 
                     </div>
-
-
-
-
-
-
 
 
                 </div>

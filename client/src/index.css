@@ -174,10 +174,14 @@ p{
   margin-bottom: 10vh;
 }
 
-.viewButton:hover{
-  background-color: rgb(184, 206, 160);
+.projectLinks{
+  color: rgb(184, 206, 160);
+  text-decoration: none;
 }
+.projectLinks:hover{
 
+  color: white;
+}
 
 
 /* ----------- about me section -------------- */
