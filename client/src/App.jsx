@@ -35,7 +35,6 @@ function App() {
                 </div>
               </div>
 
-
             </div>
             {/* end container */}
 
